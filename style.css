@@ -57,6 +57,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -126,3 +127,21 @@ section{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+.dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.image-2{
+    width: 80%;
+}
+
+.myself-text-2{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    width: 80%;
+}
+
