@@ -1,0 +1,128 @@
+@font-face {
+    font-family: poligon;
+    src: url('./fonts/Poligon-Bold.woff');
+    font-weight: 600;
+    font-display: block;
+}
+
+@font-face {
+    font-family: poligon;
+    src: url('./fonts/Poligon-SemiBold.woff');
+    font-weight: 500;
+    font-display: block;
+}
+
+@font-face {
+    font-family: poligon;
+    src: url('./fonts/Poligon-Medium.woff');
+    font-weight: 400;
+    font-display: block;
+}
+
+@font-face {
+    font-family: poligon;
+    src: url('./fonts/Poligon-Regular.woff');
+    font-weight: 300;
+    font-display: block;
+}
+
+body{
+    font-family: poligon;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-sub-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.myself-text{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.link-button{
+    margin-top: 35px;
+}
+
+.orange-color{
+    color: orange;
+}
+
+section{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    border-radius: 10rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.btn:active{
+    transform: translateY(0);
+    color: #fff;
+}
+
+.btn::after{
+    content: "";
+    display: inline-block;
+    border-radius: 10rem;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.btn-gradient-blue{
+    background: linear-gradient(to right bottom, orange, tomato);
+    color: #fff;
+}
+
+.btn-gradient-blue::after{
+    background: linear-gradient(to right bottom, orange, tomato);
+
+}
+
+.btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.top-banner{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
