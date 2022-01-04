@@ -36,6 +36,10 @@ h1{
     font-weight: 600;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .hero-sub-title{
     font-size: 24px;
     font-weight: 500;
@@ -55,9 +59,10 @@ h1{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 
 .half-width{
@@ -132,6 +137,7 @@ section{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    align-items: center;
 }
 
 .image-2{
@@ -145,3 +151,46 @@ section{
     width: 80%;
 }
 
+.dream-all-texts{
+    margin-top: -65px;
+}
+
+.experience-title{
+    font-size: 28px;
+}
+
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
+.experience-text{
+    text-align: justify;
+    width: 90%;
+}
+
+#web-dev-experience{
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+#web-dev-experience-2{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+.footer-text{
+    text-align: center;
+}
